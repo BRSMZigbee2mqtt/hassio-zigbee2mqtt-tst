@@ -1,5 +1,5 @@
 {
-  "name": "Zigbee2MQTT",
+  "name": "Zigbee2MQTT TST",
   "version": "2.9.0-1",
   "slug": "zigbee2mqtt",
   "description": "Use your ZigBee devices without the vendor's bridge or gateway",
@@ -8,7 +8,7 @@
   ],
   "uart": true,
   "udev": true,
-  "url": "https://github.com/zigbee2mqtt/hassio-zigbee2mqtt/tree/master/zigbee2mqtt",
+  "url": "https://github.com/BRSMZigbee2mqtt/hassio-zigbee2mqtt-tst/tree/master/zigbee2mqtt",
   "startup": "application",
   "services": [
     "mqtt:need"
@@ -88,3 +88,4 @@
   },
   "image": "ghcr.io/zigbee2mqtt/zigbee2mqtt-{arch}"
 }
+
